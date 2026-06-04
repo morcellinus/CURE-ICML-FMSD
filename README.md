@@ -1,12 +1,12 @@
-# CURE(Context management via Uncertainty-aware admission and Redundancy-aware Eviction) reproduction with TabICLv2
+## CURE(Context management via Uncertainty-aware admission and Redundancy-aware Eviction)
 
-## Install
+### Install
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Main 7-Dataset Setting
+### Run Main 7-Dataset Setting
 
 ```bash
 bash scripts/run_main_7datasets.sh
@@ -18,7 +18,7 @@ The main per-dataset `tau` values are stored in:
 config/expected_main_taus.json
 ```
 
-## Run One Dataset
+### Run One Dataset
 
 ```bash
 python scripts/run_tabicl_cure.py \
@@ -30,7 +30,7 @@ python scripts/run_tabicl_cure.py \
   --threads 4
 ```
 
-## Output
+### Output
 
 Results are saved under:
 
@@ -46,7 +46,7 @@ run_config.json
 step_metrics.csv
 ```
 
-## Directory Structure
+### Directory Structure
 
 ```text
 .
@@ -63,7 +63,7 @@ step_metrics.csv
 └── results/
 ```
 
-## Checkpoint
+### Checkpoint
 
 The TabICLv2 model checkpoint is not included in this bundle.
 Running the code requires either:
