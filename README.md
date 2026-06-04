@@ -1,12 +1,4 @@
-CURE reproduction with TabICLv2 for 7 datasets:
-
-- `noaa`
-- `meter`
-- `rialto`
-- `posture_no8`
-- `nomao`
-- `poker`
-- `agr_a`
+# CURE(Context management via Uncertainty-aware admission and Redundancy-aware Eviction) reproduction with TabICLv2
 
 ## Install
 
